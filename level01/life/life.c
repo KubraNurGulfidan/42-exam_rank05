@@ -6,7 +6,7 @@ static void printboard(char *board, int w, int h)
 	for (int y = 0; y < h; y++)
 	{
 		for (int x = 0; x < w; x++)
-			putchar(board[y * w + x] ? '0' : ' ');
+			putchar(board[y * w + x] ? 'O' : ' ');
 		putchar('\n');
 	}
 }
